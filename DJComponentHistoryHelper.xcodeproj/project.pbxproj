@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E3891561D47C03100F9281B /* DJCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E38914C1D47C03100F9281B /* DJCoreDataManager.m */; };
+		4E3891571D47C03100F9281B /* DJHistoryCoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E38914F1D47C03100F9281B /* DJHistoryCoreDataHelper.m */; };
+		4E3891581D47C03100F9281B /* DJHistoryDatabaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3891511D47C03100F9281B /* DJHistoryDatabaseHelper.m */; };
+		4E3891591D47C03100F9281B /* DJHistoryDatabaseSimpleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3891531D47C03100F9281B /* DJHistoryDatabaseSimpleHelper.m */; };
+		4E38915A1D47C03100F9281B /* DJHistoryPlistHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3891551D47C03100F9281B /* DJHistoryPlistHelper.m */; };
+		4E3891641D47C03D00F9281B /* DJHistoryCoreDataDemoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E38915D1D47C03D00F9281B /* DJHistoryCoreDataDemoHelper.m */; };
+		4E3891651D47C03D00F9281B /* DJHistoryHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E38915F1D47C03D00F9281B /* DJHistoryHandler.m */; };
+		4E3891661D47C03D00F9281B /* TestCoreDataModel+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3891611D47C03D00F9281B /* TestCoreDataModel+CoreDataProperties.m */; };
+		4E3891671D47C03D00F9281B /* TestCoreDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3891631D47C03D00F9281B /* TestCoreDataModel.m */; };
+		4EED0ECF1CC8D081003A319D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EED0ECE1CC8D081003A319D /* main.m */; };
+		4EED0ED21CC8D081003A319D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EED0ED11CC8D081003A319D /* AppDelegate.m */; };
+		4EED0ED51CC8D081003A319D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EED0ED41CC8D081003A319D /* ViewController.m */; };
+		4EED0ED81CC8D081003A319D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EED0ED61CC8D081003A319D /* Main.storyboard */; };
+		4EED0EDA1CC8D081003A319D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EED0ED91CC8D081003A319D /* Assets.xcassets */; };
+		4EED0EDD1CC8D081003A319D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EED0EDB1CC8D081003A319D /* LaunchScreen.storyboard */; };
+		4EED0F071CC8D16C003A319D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EED0F061CC8D16C003A319D /* libsqlite3.tbd */; };
+		4EED0F0D1CC8D3CA003A319D /* DJHistoryDatabaseHelperTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EED0F081CC8D3CA003A319D /* DJHistoryDatabaseHelperTest.m */; };
+		4EED0F0E1CC8D3CA003A319D /* DJHistoryDatabaseSimpleHelperTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EED0F091CC8D3CA003A319D /* DJHistoryDatabaseSimpleHelperTest.m */; };
+		4EED0F0F1CC8D3CA003A319D /* DJHistoryCoreDataDemoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EED0F0A1CC8D3CA003A319D /* DJHistoryCoreDataDemoTest.m */; };
+		4EED0F101CC8D3CA003A319D /* DJHistoryPlistHelperTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EED0F0B1CC8D3CA003A319D /* DJHistoryPlistHelperTest.m */; };
+		4EEF45311CC9B907007CC915 /* dj226.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4EEF452F1CC9B907007CC915 /* dj226.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EED0EE41CC8D081003A319D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EED0EC21CC8D081003A319D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EED0EC91CC8D081003A319D;
+			remoteInfo = DJComponentHistoryHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E38914B1D47C03100F9281B /* DJCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJCoreDataManager.h; sourceTree = "<group>"; };
+		4E38914C1D47C03100F9281B /* DJCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJCoreDataManager.m; sourceTree = "<group>"; };
+		4E38914D1D47C03100F9281B /* DJHistoryBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJHistoryBase.h; sourceTree = "<group>"; };
+		4E38914E1D47C03100F9281B /* DJHistoryCoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJHistoryCoreDataHelper.h; sourceTree = "<group>"; };
+		4E38914F1D47C03100F9281B /* DJHistoryCoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJHistoryCoreDataHelper.m; sourceTree = "<group>"; };
+		4E3891501D47C03100F9281B /* DJHistoryDatabaseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJHistoryDatabaseHelper.h; sourceTree = "<group>"; };
+		4E3891511D47C03100F9281B /* DJHistoryDatabaseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJHistoryDatabaseHelper.m; sourceTree = "<group>"; };
+		4E3891521D47C03100F9281B /* DJHistoryDatabaseSimpleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJHistoryDatabaseSimpleHelper.h; sourceTree = "<group>"; };
+		4E3891531D47C03100F9281B /* DJHistoryDatabaseSimpleHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJHistoryDatabaseSimpleHelper.m; sourceTree = "<group>"; };
+		4E3891541D47C03100F9281B /* DJHistoryPlistHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJHistoryPlistHelper.h; sourceTree = "<group>"; };
+		4E3891551D47C03100F9281B /* DJHistoryPlistHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJHistoryPlistHelper.m; sourceTree = "<group>"; };
+		4E38915C1D47C03D00F9281B /* DJHistoryCoreDataDemoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJHistoryCoreDataDemoHelper.h; sourceTree = "<group>"; };
+		4E38915D1D47C03D00F9281B /* DJHistoryCoreDataDemoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJHistoryCoreDataDemoHelper.m; sourceTree = "<group>"; };
+		4E38915E1D47C03D00F9281B /* DJHistoryHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJHistoryHandler.h; sourceTree = "<group>"; };
+		4E38915F1D47C03D00F9281B /* DJHistoryHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJHistoryHandler.m; sourceTree = "<group>"; };
+		4E3891601D47C03D00F9281B /* TestCoreDataModel+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestCoreDataModel+CoreDataProperties.h"; sourceTree = "<group>"; };
+		4E3891611D47C03D00F9281B /* TestCoreDataModel+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TestCoreDataModel+CoreDataProperties.m"; sourceTree = "<group>"; };
+		4E3891621D47C03D00F9281B /* TestCoreDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCoreDataModel.h; sourceTree = "<group>"; };
+		4E3891631D47C03D00F9281B /* TestCoreDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCoreDataModel.m; sourceTree = "<group>"; };
+		4EED0ECA1CC8D081003A319D /* DJComponentHistoryHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJComponentHistoryHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EED0ECE1CC8D081003A319D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4EED0ED01CC8D081003A319D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4EED0ED11CC8D081003A319D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4EED0ED31CC8D081003A319D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4EED0ED41CC8D081003A319D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4EED0ED71CC8D081003A319D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EED0ED91CC8D081003A319D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EED0EDC1CC8D081003A319D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EED0EDE1CC8D081003A319D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EED0EE31CC8D081003A319D /* DJComponentHistoryHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJComponentHistoryHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EED0EE91CC8D081003A319D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EED0F061CC8D16C003A319D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		4EED0F081CC8D3CA003A319D /* DJHistoryDatabaseHelperTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJHistoryDatabaseHelperTest.m; sourceTree = "<group>"; };
+		4EED0F091CC8D3CA003A319D /* DJHistoryDatabaseSimpleHelperTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJHistoryDatabaseSimpleHelperTest.m; sourceTree = "<group>"; };
+		4EED0F0A1CC8D3CA003A319D /* DJHistoryCoreDataDemoTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJHistoryCoreDataDemoTest.m; sourceTree = "<group>"; };
+		4EED0F0B1CC8D3CA003A319D /* DJHistoryPlistHelperTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJHistoryPlistHelperTest.m; sourceTree = "<group>"; };
+		4EEF45301CC9B907007CC915 /* dj226.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dj226.xcdatamodel; sourceTree = "<group>"; };
+		4EEF453B1CC9BC71007CC915 /* 1.2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = 1.2.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EED0EC71CC8D081003A319D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EED0F071CC8D16C003A319D /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EED0EE01CC8D081003A319D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E38914A1D47C03100F9281B /* DJHistoryHelper */ = {
+			isa = PBXGroup;
+			children = (
+				4E38914D1D47C03100F9281B /* DJHistoryBase.h */,
+				4E38914B1D47C03100F9281B /* DJCoreDataManager.h */,
+				4E38914C1D47C03100F9281B /* DJCoreDataManager.m */,
+				4E38914E1D47C03100F9281B /* DJHistoryCoreDataHelper.h */,
+				4E38914F1D47C03100F9281B /* DJHistoryCoreDataHelper.m */,
+				4E3891501D47C03100F9281B /* DJHistoryDatabaseHelper.h */,
+				4E3891511D47C03100F9281B /* DJHistoryDatabaseHelper.m */,
+				4E3891521D47C03100F9281B /* DJHistoryDatabaseSimpleHelper.h */,
+				4E3891531D47C03100F9281B /* DJHistoryDatabaseSimpleHelper.m */,
+				4E3891541D47C03100F9281B /* DJHistoryPlistHelper.h */,
+				4E3891551D47C03100F9281B /* DJHistoryPlistHelper.m */,
+			);
+			path = DJHistoryHelper;
+			sourceTree = "<group>";
+		};
+		4E38915B1D47C03D00F9281B /* TestModels */ = {
+			isa = PBXGroup;
+			children = (
+				4E38915C1D47C03D00F9281B /* DJHistoryCoreDataDemoHelper.h */,
+				4E38915D1D47C03D00F9281B /* DJHistoryCoreDataDemoHelper.m */,
+				4E38915E1D47C03D00F9281B /* DJHistoryHandler.h */,
+				4E38915F1D47C03D00F9281B /* DJHistoryHandler.m */,
+				4E3891601D47C03D00F9281B /* TestCoreDataModel+CoreDataProperties.h */,
+				4E3891611D47C03D00F9281B /* TestCoreDataModel+CoreDataProperties.m */,
+				4E3891621D47C03D00F9281B /* TestCoreDataModel.h */,
+				4E3891631D47C03D00F9281B /* TestCoreDataModel.m */,
+			);
+			path = TestModels;
+			sourceTree = "<group>";
+		};
+		4EED0EC11CC8D081003A319D = {
+			isa = PBXGroup;
+			children = (
+				4EED0F061CC8D16C003A319D /* libsqlite3.tbd */,
+				4EED0ECC1CC8D081003A319D /* DJComponentHistoryHelper */,
+				4EED0EE61CC8D081003A319D /* DJComponentHistoryHelperTests */,
+				4EED0ECB1CC8D081003A319D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EED0ECB1CC8D081003A319D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EED0ECA1CC8D081003A319D /* DJComponentHistoryHelper.app */,
+				4EED0EE31CC8D081003A319D /* DJComponentHistoryHelperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EED0ECC1CC8D081003A319D /* DJComponentHistoryHelper */ = {
+			isa = PBXGroup;
+			children = (
+				4E38914A1D47C03100F9281B /* DJHistoryHelper */,
+				4E38915B1D47C03D00F9281B /* TestModels */,
+				4EED0ED01CC8D081003A319D /* AppDelegate.h */,
+				4EED0ED11CC8D081003A319D /* AppDelegate.m */,
+				4EED0ED31CC8D081003A319D /* ViewController.h */,
+				4EED0ED41CC8D081003A319D /* ViewController.m */,
+				4EED0ED61CC8D081003A319D /* Main.storyboard */,
+				4EED0ED91CC8D081003A319D /* Assets.xcassets */,
+				4EED0EDB1CC8D081003A319D /* LaunchScreen.storyboard */,
+				4EED0EDE1CC8D081003A319D /* Info.plist */,
+				4EED0ECD1CC8D081003A319D /* Supporting Files */,
+			);
+			path = DJComponentHistoryHelper;
+			sourceTree = "<group>";
+		};
+		4EED0ECD1CC8D081003A319D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EED0ECE1CC8D081003A319D /* main.m */,
+				4EEF452F1CC9B907007CC915 /* dj226.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EED0EE61CC8D081003A319D /* DJComponentHistoryHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EED0F081CC8D3CA003A319D /* DJHistoryDatabaseHelperTest.m */,
+				4EED0F091CC8D3CA003A319D /* DJHistoryDatabaseSimpleHelperTest.m */,
+				4EED0F0A1CC8D3CA003A319D /* DJHistoryCoreDataDemoTest.m */,
+				4EED0F0B1CC8D3CA003A319D /* DJHistoryPlistHelperTest.m */,
+				4EED0EE91CC8D081003A319D /* Info.plist */,
+			);
+			path = DJComponentHistoryHelperTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EED0EC91CC8D081003A319D /* DJComponentHistoryHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EED0EEC1CC8D081003A319D /* Build configuration list for PBXNativeTarget "DJComponentHistoryHelper" */;
+			buildPhases = (
+				4EED0EC61CC8D081003A319D /* Sources */,
+				4EED0EC71CC8D081003A319D /* Frameworks */,
+				4EED0EC81CC8D081003A319D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DJComponentHistoryHelper;
+			productName = DJComponentHistoryHelper;
+			productReference = 4EED0ECA1CC8D081003A319D /* DJComponentHistoryHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EED0EE21CC8D081003A319D /* DJComponentHistoryHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EED0EEF1CC8D081003A319D /* Build configuration list for PBXNativeTarget "DJComponentHistoryHelperTests" */;
+			buildPhases = (
+				4EED0EDF1CC8D081003A319D /* Sources */,
+				4EED0EE01CC8D081003A319D /* Frameworks */,
+				4EED0EE11CC8D081003A319D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EED0EE51CC8D081003A319D /* PBXTargetDependency */,
+			);
+			name = DJComponentHistoryHelperTests;
+			productName = DJComponentHistoryHelperTests;
+			productReference = 4EED0EE31CC8D081003A319D /* DJComponentHistoryHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EED0EC21CC8D081003A319D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DJ;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = dj226;
+				TargetAttributes = {
+					4EED0EC91CC8D081003A319D = {
+						CreatedOnToolsVersion = 7.3;
+						ProvisioningStyle = Manual;
+					};
+					4EED0EE21CC8D081003A319D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4EED0EC91CC8D081003A319D;
+					};
+				};
+			};
+			buildConfigurationList = 4EED0EC51CC8D081003A319D /* Build configuration list for PBXProject "DJComponentHistoryHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EED0EC11CC8D081003A319D;
+			productRefGroup = 4EED0ECB1CC8D081003A319D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EED0EC91CC8D081003A319D /* DJComponentHistoryHelper */,
+				4EED0EE21CC8D081003A319D /* DJComponentHistoryHelperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EED0EC81CC8D081003A319D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EED0EDD1CC8D081003A319D /* LaunchScreen.storyboard in Resources */,
+				4EED0EDA1CC8D081003A319D /* Assets.xcassets in Resources */,
+				4EED0ED81CC8D081003A319D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EED0EE11CC8D081003A319D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EED0EC61CC8D081003A319D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E3891561D47C03100F9281B /* DJCoreDataManager.m in Sources */,
+				4E3891651D47C03D00F9281B /* DJHistoryHandler.m in Sources */,
+				4E3891591D47C03100F9281B /* DJHistoryDatabaseSimpleHelper.m in Sources */,
+				4E3891571D47C03100F9281B /* DJHistoryCoreDataHelper.m in Sources */,
+				4E3891661D47C03D00F9281B /* TestCoreDataModel+CoreDataProperties.m in Sources */,
+				4E38915A1D47C03100F9281B /* DJHistoryPlistHelper.m in Sources */,
+				4E3891641D47C03D00F9281B /* DJHistoryCoreDataDemoHelper.m in Sources */,
+				4EED0ED51CC8D081003A319D /* ViewController.m in Sources */,
+				4E3891581D47C03100F9281B /* DJHistoryDatabaseHelper.m in Sources */,
+				4EED0ED21CC8D081003A319D /* AppDelegate.m in Sources */,
+				4EED0ECF1CC8D081003A319D /* main.m in Sources */,
+				4E3891671D47C03D00F9281B /* TestCoreDataModel.m in Sources */,
+				4EEF45311CC9B907007CC915 /* dj226.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EED0EDF1CC8D081003A319D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EED0F0D1CC8D3CA003A319D /* DJHistoryDatabaseHelperTest.m in Sources */,
+				4EED0F0F1CC8D3CA003A319D /* DJHistoryCoreDataDemoTest.m in Sources */,
+				4EED0F0E1CC8D3CA003A319D /* DJHistoryDatabaseSimpleHelperTest.m in Sources */,
+				4EED0F101CC8D3CA003A319D /* DJHistoryPlistHelperTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EED0EE51CC8D081003A319D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EED0EC91CC8D081003A319D /* DJComponentHistoryHelper */;
+			targetProxy = 4EED0EE41CC8D081003A319D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EED0ED61CC8D081003A319D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EED0ED71CC8D081003A319D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EED0EDB1CC8D081003A319D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EED0EDC1CC8D081003A319D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EED0EEA1CC8D081003A319D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4EED0EEB1CC8D081003A319D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EED0EED1CC8D081003A319D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DJComponentHistoryHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dj226.DJComponentHistoryHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4EED0EEE1CC8D081003A319D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DJComponentHistoryHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dj226.DJComponentHistoryHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4EED0EF01CC8D081003A319D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DJComponentHistoryHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hengda.DJComponentHistoryHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJComponentHistoryHelper.app/DJComponentHistoryHelper";
+			};
+			name = Debug;
+		};
+		4EED0EF11CC8D081003A319D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DJComponentHistoryHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hengda.DJComponentHistoryHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJComponentHistoryHelper.app/DJComponentHistoryHelper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EED0EC51CC8D081003A319D /* Build configuration list for PBXProject "DJComponentHistoryHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EED0EEA1CC8D081003A319D /* Debug */,
+				4EED0EEB1CC8D081003A319D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EED0EEC1CC8D081003A319D /* Build configuration list for PBXNativeTarget "DJComponentHistoryHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EED0EED1CC8D081003A319D /* Debug */,
+				4EED0EEE1CC8D081003A319D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EED0EEF1CC8D081003A319D /* Build configuration list for PBXNativeTarget "DJComponentHistoryHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EED0EF01CC8D081003A319D /* Debug */,
+				4EED0EF11CC8D081003A319D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4EEF452F1CC9B907007CC915 /* dj226.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4EEF453B1CC9BC71007CC915 /* 1.2.xcdatamodel */,
+				4EEF45301CC9B907007CC915 /* dj226.xcdatamodel */,
+			);
+			currentVersion = 4EEF45301CC9B907007CC915 /* dj226.xcdatamodel */;
+			path = dj226.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4EED0EC21CC8D081003A319D /* Project object */;
+}
